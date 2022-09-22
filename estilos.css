@@ -1,0 +1,65 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.background{
+    background-image: url("/background\ bmw.png");
+}
+
+.promociones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+}
+
+.white{
+    color: aliceblue;
+}
+
+.margen1{
+    margin-left: 40px;
+}
+
+.blue{
+    color: aliceblue;
+    background-color: blue;
+    width: 160px;
+    height: 50px;
+}
+
+.margenlista{
+    margin: 7px;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+}
+
+
+.logitos{
+    width: 20px;
+    height: 20px;
+    margin: 40px 10px 10px 10px;
+    align-items: center;
+    
+}
+
+.logitobmw{
+    width: 100px;
+    height: 130px;
+    margin-left: 30px;
+    Overflow: hidden;
+    object-fit: cover;
+
+}
+
+.h1:after{
+    content: "";
+    width: 30%;
+    height: 4px;
+    background-color: green;
+    display: block;
+}
