@@ -1,17 +1,29 @@
 .nav{
     display: flex;
     justify-content: space-around;
+    
 }
 
+.arial{
+    font-family: Arial;
+}
+
+
 .background{
-    background-image: url("/background\ bmw.png");
+    background-image: url("/fondo.png");
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-position: center;
+    background-size: cover;
 }
 
 .promociones{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: aliceblue;
+    color: black;
+
 }
 
 .white{
@@ -23,10 +35,8 @@
 }
 
 .blue{
-    color: aliceblue;
-    background-color: blue;
-    width: 160px;
-    height: 50px;
+    color: white;
+
 }
 
 .margenlista{
@@ -62,4 +72,13 @@
     height: 4px;
     background-color: green;
     display: block;
+}
+
+.coches{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+
 }
