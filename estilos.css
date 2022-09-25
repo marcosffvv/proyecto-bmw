@@ -1,13 +1,36 @@
+.nav0{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .nav{
     display: flex;
-    justify-content: space-around;
-    
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 .arial{
     font-family: Arial;
 }
+.div01{
+    height: 200px;
+}
 
+.div00{
+    height: 300px;
+}
+
+.div03{
+    height: 70px;
+}
+
+.div-coches{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
 .background{
     background-image: url("/fondo.png");
@@ -16,11 +39,13 @@
     flex-wrap: wrap;
     background-position: center;
     background-size: cover;
+    height: 600px;
 }
 
 .promociones{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
     color: black;
 
@@ -36,11 +61,48 @@
 
 .blue{
     color: white;
+    background-color:rgb(61, 61, 224);
 
 }
 
+.sindeco{
+    text-decoration: none;
+}
+
+.fondoblue{
+    background-color: rgb(61, 61, 224);
+    padding: 20px;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+}
+
+.margenlista2{
+    font-size: 27px;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+.margenlista1{
+    font-size: 14px;
+    margin: 10px;
+    margin-bottom: 30px;
+    color: grey;
+}
+
 .margenlista{
-    margin: 7px;
+    font-size: 20px;
+    margin: 10px;
+    margin-bottom: 30px;
+    color: gray;
+}
+
+.nodecore{
+    text-decoration: none;
+    color: black;
 }
 
 .center{
@@ -50,11 +112,15 @@
 
 
 .logitos{
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     margin: 40px 10px 10px 10px;
-    align-items: center;
-    
+    align-items: center;  
+}
+
+.logitos:hover{
+    width: 30px;
+    height: 30px;
 }
 
 .logitobmw{
@@ -63,7 +129,6 @@
     margin-left: 30px;
     Overflow: hidden;
     object-fit: cover;
-
 }
 
 .h1:after{
@@ -79,6 +144,28 @@
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: flex-start;
+    height: 90px;
+    width: 180px;
+    margin: 16px;
+}
+
+.coches:hover{
+    height: 110px;
+    width: 210px;
+}
 
 
+.divgordo{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+main{
+    background-color: aliceblue ;
+}
+
+.nodecoro{
+    text-decoration: none;
+    color: black;
 }
