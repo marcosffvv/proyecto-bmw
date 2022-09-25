@@ -193,6 +193,7 @@ main{
     font-size: 12px;
     margin: 15px;
     align-items: center;
+    color: blue;
 }
 ul{
     list-style-type: none;
