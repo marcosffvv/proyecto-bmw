@@ -3,36 +3,29 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
 .nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
-
 .arial{
     font-family: Arial;
 }
 .div01{
     height: 200px;
 }
-
 .div00{
     height: 300px;
 }
-
 .div03{
     height: 70px;
 }
-
-
 .div-coches{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
 }
-
 .background{
     background-image: url("/fondo.png");
     display: flex;
@@ -42,7 +35,6 @@
     background-size: cover;
     height: 600px;
 }
-
 .promociones{
     display: flex;
     flex-wrap: wrap;
@@ -50,24 +42,19 @@
     align-items: center;
     color: black;
 }
-
 .white{
     color: aliceblue;
 }
-
 .margen1{
     margin-left: 40px;
 }
-
 .blue{
     color: white;
     background-color:rgb(61, 61, 224);
 }
-
 .sindeco{
     text-decoration: none;
 }
-
 .fondoblue{
     background-color: rgb(61, 61, 224);
     padding: 20px;
@@ -78,50 +65,41 @@
     justify-content: center;
     border: 0px;
 }
-
 .margenlista2{
     font-size: 27px;
     margin: 10px;
     margin-bottom: 30px;
 }
-
 .margenlista1{
     font-size: 14px;
     margin: 10px;
     margin-bottom: 30px;
     color: grey;
 }
-
 .margenlista{
     font-size: 20px;
     margin: 10px;
     margin-bottom: 30px;
     color: gray;
 }
-
 .nodecore{
     text-decoration: none;
     color: black;
 }
-
 .center{
     display: flex;
     align-items: center;
 }
-
-
 .logitos{
     width: 25px;
     height: 25px;
     margin: 40px 10px 10px 10px;
     align-items: center;  
 }
-
 .logitos:hover{
     width: 30px;
     height: 30px;
 }
-
 .logitobmw{
     width: 100px;
     height: 130px;
@@ -129,7 +107,6 @@
     Overflow: hidden;
     object-fit: cover;
 }
-
 .h1:after{
     content: "";
     width: 30%;
@@ -137,7 +114,6 @@
     background-color: green;
     display: block;
 }
-
 .coches{
     display: flex;
     justify-content: space-between;
@@ -147,53 +123,49 @@
     width: 180px;
     margin: 16px;
 }
-
 .coches:hover{
     height: 110px;
     width: 210px;
+    
 }
-
-
 .divgordo{
     margin-left: 20%;
     margin-right: 20%;
 }
-
-
 main{
     background-color: aliceblue ;
 }
-
 .nodecoro{
     text-decoration: none;
     color: black;
 }
-
 .divadd{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;  
+    justify-content: space-around;
+    align-items: center;
 }
-
+.divadd22{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: bisque;
+}
 .divadd1{
     width: 200px;
     height: 400px;
     margin: 10px;
 }
-
 .pdep{
     font-size: 30px;
 }
-
 .pdep2{
     font-size: 12px;
 }
-
 .iimmgg{
     width: 210px;
     height: 120px;
 }
-
 .fdf{
     width: 200px;
     height: 120px;
@@ -204,9 +176,30 @@ main{
     align-items: center;
     flex-direction: column;
 }
-
 .imgsize{
     height: 20px;
     width: 20px;
 }
-
+.disdy{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 13px;
+}
+.disdi{
+    display: flex;
+    justify-content: space-around;
+}
+.letraa{
+    font-size: 12px;
+    margin: 15px;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
