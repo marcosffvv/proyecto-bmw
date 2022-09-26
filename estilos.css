@@ -27,7 +27,7 @@
     justify-content: space-around;
 }
 .background{
-    background-image: url("/fondo.png");
+    background-image: url("/fotos/fondo.png");
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
